@@ -1,6 +1,6 @@
 {
   "name": "jose",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "JSON Object Signing and Encryption (JOSE) library (symmetric and asymmetric)",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/autoit4you/node-jose.git"
+    "url": "git+ssh://git@github.com:dludwig/node-jose.git"
   },
   "keywords": [
     "jws",
@@ -24,16 +24,16 @@
   "author": "Jonathan Horn <info@autoit4you.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/autoit4you/node-jose/issues"
+    "url": "https://git@github.com:dludwig/node-jose/issues"
   },
-  "homepage": "https://github.com/autoit4you/node-jose#readme",
+  "homepage": "https://git@github.com:dludwig/node-jose#readme",
   "devDependencies": {
-    "chai": "^3.2.0",
-    "istanbul": "^0.3.18",
-    "mocha": "^2.2.5"
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.1"
   },
   "dependencies": {
-    "asn1.js": "^2.2.0",
-    "bn.js": "^3.1.2"
+    "asn1.js": "^5.2.0",
+    "bn.js": "^5.0.0"
   }
 }
